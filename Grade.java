@@ -7,7 +7,7 @@ class Grade{
         Scanner sc = new Scanner(System.in);
         percentage = sc.nextInt();
 
-        if(percentage > 90){
+        if(percentage > 90 && percentage <100){
             System.out.println("A+");
         }
         else if (percentage >= 80 && percentage <= 89){
